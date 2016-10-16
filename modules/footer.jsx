@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 
 class Footer extends React.Component {
   render() {
-    return <footer> This is a footer
-              <a href="http://gregpfaff.com"> Built By Greg Pfaff </a>
+    return <footer> 
+              <a href="http://gregpfaff.com"> Built with love by Greg Pfaff and Cori Tanck </a>
           </footer>
   }
 }

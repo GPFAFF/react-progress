@@ -1,3 +1,39 @@
 body {
-  background: #ccc;
+  background: white;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0;
+}
+#main {
+  padding: 30px 0
+}
+h2 {
+  font-size: 50px;
+  line-height: 0;
+  font-family: 'Bad Script', cursive;
+}
+small {
+  font-weight: bold;
+  font-size: 20px;
+}
+#nav {
+  padding: 30px 0
+}
+a {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+#about {
+  padding: 20px;
+}
+#about h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+#about p {
+  width: 80%;
+  margin: 0 auto;
 }

@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 
 class Nav extends React.Component {
   render() {
-    return <nav> Navigation
-             <a href="#"> One </a>
-             <a href="#"> TWo </a>
-             <a href="#"> Three </a>
-             <a href="#"> Four </a>
+    return <nav> 
+             <a href="#"> Home </a>
+             <a href="#"> Events </a>
+             <a href="#"> Wedding Party </a>
+             <a href="#"> Travel </a>
+             <a href="#"> Gift Registry </a>
            </nav>
   }
 }

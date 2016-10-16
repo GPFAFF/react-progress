@@ -1,5 +1,7 @@
-import Hello from './modules/hello.jsx';
-import World from './modules/world.jsx';
+import Header from './modules/header.jsx';
+import Main from './modules/main.jsx';
 import Nav from './modules/nav.jsx';
+import MainPhoto from './modules/main-image.jsx';
+import About from './modules/about.jsx';
 import Footer from './modules/footer.jsx';
-require('./styles/main.css');
+import Styles from './styles/main.css';
