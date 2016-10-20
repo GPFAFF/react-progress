@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import Header from './modules/header.jsx';
 
 class Main extends React.Component {
   render () {
     return  <section>
-              <h2> Cori Tanck </h2>
-              <small> and </small>
-              <h2> Greg Pfaff </h2>
+            
+              <h1> Cori Tanck &amp; Greg Pfaff </h1>
             </section>
 
   }

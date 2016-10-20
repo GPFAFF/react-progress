@@ -4,17 +4,28 @@ body {
   font-family: 'Cormorant Garamond', serif;
   margin: 0;
 }
-#main {
+#header img, #footer img{
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+}
+#app {
   padding: 30px 0
 }
-h2 {
+h1 {
   font-size: 50px;
-  line-height: 0;
-  font-family: 'Bad Script', cursive;
+  font-family: 'Proza Libre', serif;
+  font-weight: 100;
+}
+#app h1 {
+  display: inline;
+  margin: 0 20px;
+  letter-spacing: 1px;
 }
 small {
   font-weight: bold;
   font-size: 20px;
+  display: inline;
 }
 #nav {
   padding: 30px 0
@@ -35,5 +46,8 @@ a {
 }
 #about p {
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
+}
+ul {
+  padding-left: 0;
 }
