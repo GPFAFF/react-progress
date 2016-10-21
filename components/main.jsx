@@ -4,11 +4,11 @@ import ReactDOM from 'react-dom';
 
 class Main extends React.Component {
   render () {
-    return  <section>
-            
-              <h1> Cori Tanck &amp; Greg Pfaff </h1>
-            </section>
-
+    return (
+      <section>      
+        <h1> Cori Tanck &amp; Greg Pfaff </h1>
+      </section>
+    );
   }
 }
 
