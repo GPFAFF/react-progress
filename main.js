@@ -28,7 +28,7 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={MainLayout}>
-      <IndexRoute component={MainLayout}></IndexRoute>
+      <IndexRoute component={Home}></IndexRoute>
       <Route path="home" component={Home}></Route>
       <Route path="events" component={Events}></Route>
       <Route path="weddingparty" component={WeddingParty}></Route>

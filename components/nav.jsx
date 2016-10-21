@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
 
-var Nav = React.createClass ({
+/*var Nav = React.createClass ({
   render: function() {
     return (
       <nav> 
@@ -15,6 +15,6 @@ var Nav = React.createClass ({
           {this.props.children}
        </ul>
      </nav>
-    )
+    );
   }
-})
+})*/
