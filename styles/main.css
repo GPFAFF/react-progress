@@ -1,14 +1,15 @@
+/*HOME STYLING*/
 body {
   background: white;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
   margin: 0;
 }
-#header img, #footer img{
+/*#header img, #footer img{
   margin: 0 auto;
   max-width: 100%;
   width: 100%;
-}
+}*/
 #app {
   padding: 30px 0
 }
@@ -22,13 +23,8 @@ h1 {
   margin: 0 20px;
   letter-spacing: 1px;
 }
-small {
-  font-weight: bold;
-  font-size: 20px;
-  display: inline;
-}
-#nav {
-  padding: 30px 0
+ul{
+  padding: 30px 0;
 }
 a {
   padding: 20px;
@@ -36,18 +32,75 @@ a {
   text-transform: uppercase;
   color: black;
 }
-
-#about {
+.about {
   padding: 20px;
 }
-#about h2 {
+.about h2 {
     font-size: 30px;
     padding: 20px 0;
 }
-#about p {
+.about p {
   width: 80%;
   margin: 20px auto;
 }
-ul {
-  padding-left: 0;
+.active {
+  font-weight: bold;
+}
+/*EVENTS STYLING*/
+
+/*WEDDING PARTY STYLING*/
+.wedding-party {
+  margin: 30px 100px;
+  display: table;
+}
+.wedding-party h3 {
+  margin-top: 0;
+}
+.wedding-party-information, .wedding-party-picture {
+  width: 40%;
+  padding: 20px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+.wedding-party-picture img {
+  text-align: center;
+  max-width: 100%;
+}
+.seperator {
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+  border-top: 1px solid black;
+}
+footer {
+  margin: 30px 0;
+}
+
+/* MOBILE - TABLET */
+@media (max-width: 767px) {
+  #app h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+  ul {
+
+  }
+  a {
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 0;
+  }
+  .wedding-party {
+    margin: 0;
+    display: block;
+    padding: 40px;
+  }
+  .wedding-party-information, .wedding-party-picture {
+    width: auto;
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    padding: 0;
+  }
 }

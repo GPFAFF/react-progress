@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import Header from './modules/header.jsx';
 
-class Main extends React.Component {
+export default class Main extends React.Component {
   render () {
     return (
-      <section>      
+      <div>      
         <h1> Cori Tanck &amp; Greg Pfaff </h1>
-      </section>
+      </div>
     );
   }
 }
-
-ReactDOM.render(<Main />, document.getElementById('main'));

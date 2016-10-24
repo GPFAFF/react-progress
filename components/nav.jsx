@@ -2,19 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-
-/*var Nav = React.createClass ({
-  render: function() {
+export default class Navigation extends React.Component {
+  render () {
     return (
-      <nav> 
-        <ul>
-          <Link to="events">Events</Link>
-          <Link to="wedding-party">Wedding Party</Link>
-          <Link to="travel">Travel</Link>
-          <Link to="registry">Gift Registry</Link>
-          {this.props.children}
-       </ul>
-     </nav>
+      <ul>
+        <Link to="home" activeClassName="active">Home</Link>
+        <Link to="events" activeClassName="active">Events</Link>
+        <Link to="weddingparty" activeClassName="active">Wedding Party</Link>
+        <Link to="travel" activeClassName="active">Travel</Link>
+        <Link to="registry" activeClassName="active">Registry</Link>
+      </ul>
     );
   }
-})*/
+}
