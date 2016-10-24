@@ -13,9 +13,9 @@ export default class WeddingParty extends React.Component {
   render () {
     return (
       <div>
-        <h2> Wedding Party </h2>
+        <h3> Wedding Party </h3>
         <p className="seperator"></p>
-        
+
         <ChrisPfaff />
         <p className="seperator"></p>
 

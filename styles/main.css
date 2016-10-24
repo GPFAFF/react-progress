@@ -1,33 +1,35 @@
 /*HOME STYLING*/
+* {
+  box-sizing: border-box;
+}
 body {
   background: white;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
   margin: 0;
 }
-/*#header img, #footer img{
-  margin: 0 auto;
-  max-width: 100%;
-  width: 100%;
-}*/
-#app {
-  padding: 30px 0
-}
-h1 {
+h2 {
+  display: inline;
+  margin: 0;
+  letter-spacing: 1px;
   font-size: 50px;
   font-family: 'Proza Libre', serif;
   font-weight: 100;
 }
-#app h1 {
-  display: inline;
-  margin: 0 20px;
+h3 {
+  font-size: 30px;
   letter-spacing: 1px;
+}
+h5 {
+  font-size: 18px;
+  margin-top: 5px;
+  font-style: italic;
 }
 ul{
   padding: 30px 0;
 }
 a {
-  padding: 20px;
+  margin: 20px;
   text-decoration: none;
   text-transform: uppercase;
   color: black;
@@ -45,6 +47,13 @@ a {
 }
 .active {
   font-weight: bold;
+  border-bottom: solid 2px #000;
+  display: inline;
+  padding-bottom: 3px;
+}
+.mainImage img{
+  margin: 0 auto;
+  max-width: 100%;
 }
 /*EVENTS STYLING*/
 
@@ -54,7 +63,7 @@ a {
   display: table;
 }
 .wedding-party h3 {
-  margin-top: 0;
+  margin: 0;
 }
 .wedding-party-information, .wedding-party-picture {
   width: 40%;
@@ -63,9 +72,8 @@ a {
   text-align: left;
   vertical-align: top;
 }
-.wedding-party-picture img {
+.wedding-party-picture {
   text-align: center;
-  max-width: 100%;
 }
 .seperator {
   width: 80%;
@@ -74,22 +82,23 @@ a {
   border-top: 1px solid black;
 }
 footer {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 /* MOBILE - TABLET */
 @media (max-width: 767px) {
-  #app h1 {
+  #app h2 {
     font-size: 30px;
     margin: 0;
-  }
-  ul {
-
+    display: block;
   }
   a {
     font-size: 12px;
-    margin-left: 5px;
     padding: 0;
+    margin: 0 0 0 5px;
+  }
+  .mainImage {
+    padding: 30px;
   }
   .wedding-party {
     margin: 0;

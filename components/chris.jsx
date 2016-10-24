@@ -11,7 +11,7 @@ export default class ChrisPfaff extends React.Component {
         </div>
 
         <div className="wedding-party-picture">
-          <img className="wedding-picture" src=" http://placehold.it/300x300"/>
+          <img className="wedding-picture" alt="wedding photo portrait" src="./img/mm1.jpg"/>
         </div>
       </div>
     )

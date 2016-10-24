@@ -4,7 +4,7 @@ export default class Travel extends React.Component {
   render () {
     return (
       <div>
-        <h2> Travel </h2>
+        <h3> Travel </h3>
       </div>
     );
   }
