@@ -1,12 +1,12 @@
 import React from 'react';
-import ChrisPfaff from '../components/chris.jsx';
-import DennisOneil from '../components/dennis.jsx';
-import JeffSeelbinder from '../components/jeff.jsx';
-import MikeCastiglione from '../components/mike.jsx';
-import ElenaSchoch from '../components/elena.jsx';
-import LaurenDooley from '../components/dooley.jsx';
-import VictoriaGarbarczyk from '../components/tori.jsx';
-import MorganCoakley from '../components/morgan.jsx';
+import ChrisPfaff from '../components/wedding-party/chris.jsx';
+import DennisOneil from '../components/wedding-party/dennis.jsx';
+import JeffSeelbinder from '../components/wedding-party/jeff.jsx';
+import MikeCastiglione from '../components/wedding-party/mike.jsx';
+import ElenaSchoch from '../components/wedding-party/elena.jsx';
+import LaurenDooley from '../components/wedding-party/dooley.jsx';
+import VictoriaGarbarczyk from '../components/wedding-party/tori.jsx';
+import MorganCoakley from '../components/wedding-party/morgan.jsx';
 
 
 export default class WeddingParty extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
-import GoogleMap from '../components/maps.jsx';
-import Location from '../components/location.jsx';
+import GoogleMap from '../components/events/maps.jsx';
+import Location from '../components/events/location.jsx';
 
 export default class Events extends React.Component {
   render () {
