@@ -37,3 +37,15 @@ ReactDOM.render(
     </Route>
   </Router>, 
 app);
+
+/*function initMap() {
+  var justinesHouse = { lat: 30.2645941, lng: -97.7320322 };
+  var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: justinesHouse
+    });
+  var marker = new google.maps.Marker({
+    position: justinesHouse,
+    map: map
+  });
+}*/

@@ -3,7 +3,6 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: './main.js',
-  output: { path: __dirname, file: 'bundle.js'},
   module: {
     loaders: [
       {
@@ -20,4 +19,15 @@ module.exports = {
       }
     ]
   },
+  output: { 
+    path: __dirname + '/dist', 
+    filename: 'index_bundle.js'
+  },
+ /* plugins : [
+    new AppCachePlugin({
+      template: './public/index.html',
+      inject: true
+    })
+    //new wepack.optimize.UglifyJsPlugin();
+  ]*/
 };
