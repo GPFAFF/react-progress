@@ -1,57 +1,34 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
-export default class GoogleMap extends React.Component {
+  var GoogleMap = React.createClass({
+  getDefaultProps: function () {
+      return {
+          initialZoom: 15,
+          mapCenterLat: 30.264765,
+          mapCenterLng: -97.728805
+      };
+  },
+  componentDidMount: function (rootNode) {
+      var mapOptions = {
+              center: this.mapCenterLatLng(),
+              zoom: this.props.initialZoom
+          },
+          map = new google.maps.Map(ReactDOM.findDOMNode(this), mapOptions);
+      var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Greg and Cori are getting married here!', map: map});
+      this.setState({map: map});
+  },
+  mapCenterLatLng: function () {
+      var props = this.props;
 
-  static propTypes() {
-    initalCenter: React.PropTypes.objectOf(React.PropTypes.number).isRequired
-  }
+      return new google.maps.LatLng(props.mapCenterLat, props.mapCenterLng);
+  },
+  render: function () {
 
-  render() {
-    return (
-      <div className="GoogleMap">
-        MAP GOES HERE
-      </div>
-    )
+      return (
+          <div className='map-gic'></div>
+      );
   }
-  componentDidMount() {
-    this.map = this.createMap();
-    this.marker = this.createMarker();
-    this.infoWindow = this.createInfoWindow();
+});
 
-    google.maps.event.addListener(this.map, 'zoom_changed', ()=> this.handleZoomChange());
-  }
-
-  compontentDidUnMount() {
-    google.maps.event.clearListeners(map, 'zoom_changed');
-  }
-
-  createMap() {
-    let mapOptions = {
-      zoom: 10,
-      center: this.mapCenter()
-    }
-    return new google.maps.map(this.refs.mapCanvas, mapOptions)
-  }
-
-  mapCenter() {
-    return new google.maps.Marker({
-      position: this.mapCenter(),
-      map: this.map
-    })
-  }
-  createInfoWindow() {
-    let contentString = "<div> You cannot see the venue from the street </div>"
-    return new google.maps.infoWindow({
-      map: this.map,
-      anchor: this.marker,
-      content: contentString
-    })
-  }
-
-  handleZoomChange() {
-    this.setState({
-      zoom: this.map.getZoom()
-    })
-  }
-}
-var initialCenter = { lng: -90.1056957, lat: 29.9717272 };
+module.exports = GoogleMap;

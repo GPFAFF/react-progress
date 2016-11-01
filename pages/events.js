@@ -7,7 +7,7 @@ export default class Events extends React.Component {
     return (
       <div>
         <h3> Events </h3>
-        <GoogleMap />
+        <GoogleMap mlat="30.264765" mlong="-97.728805"/>
         <Location />
       </div>
     );

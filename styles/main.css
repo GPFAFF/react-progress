@@ -110,6 +110,10 @@ a.registry-button:hover {
   margin: 20px auto;
   padding: 10px;
 }
+.map-gic {
+  height: 300px;
+  width: 100%;
+}
 footer {
   margin-top: 30px;
 }
