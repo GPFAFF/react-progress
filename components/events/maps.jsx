@@ -18,7 +18,7 @@ import ReactDOM from 'react-dom';
       var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Greg and Cori are getting married here!', map: map});
       this.setState({map: map});
   },
-  mapCenterLatLng: function () {
+  mapCenterLatLng: function (rootNode) {
       var props = this.props;
 
       return new google.maps.LatLng(props.mapCenterLat, props.mapCenterLng);
