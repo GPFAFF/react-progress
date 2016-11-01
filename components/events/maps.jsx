@@ -2,12 +2,9 @@ import React from 'react';
 
 export default class GoogleMap extends React.Component {
 
- /* state = { zoom : 10 };
-  console.log(state);
-
   static propTypes() {
     initalCenter: React.PropTypes.objectOf(React.PropTypes.number).isRequired
-  }*/
+  }
 
   render() {
     return (
@@ -16,7 +13,7 @@ export default class GoogleMap extends React.Component {
       </div>
     )
   }
-  /*componentDidMount() {
+  componentDidMount() {
     this.map = this.createMap();
     this.marker = this.createMarker();
     this.infoWindow = this.createInfoWindow();
@@ -30,7 +27,7 @@ export default class GoogleMap extends React.Component {
 
   createMap() {
     let mapOptions = {
-      zoom: this.state.zoom,
+      zoom: 10,
       center: this.mapCenter()
     }
     return new google.maps.map(this.refs.mapCanvas, mapOptions)
@@ -38,8 +35,8 @@ export default class GoogleMap extends React.Component {
 
   mapCenter() {
     return new google.maps.Marker({
-      position: this.mapCenter();
-      map: this.map;
+      position: this.mapCenter(),
+      map: this.map
     })
   }
   createInfoWindow() {
@@ -56,6 +53,5 @@ export default class GoogleMap extends React.Component {
       zoom: this.map.getZoom()
     })
   }
-var initialCenter = { lng: -90.1056957, lat: 29.9717272 }*/
-
 }
+var initialCenter = { lng: -90.1056957, lat: 29.9717272 };
