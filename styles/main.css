@@ -125,6 +125,12 @@ footer {
     margin: 0;
     display: block;
   }
+  h3 {
+    padding: 20px;
+  }
+  ul {
+    margin-right: 5px;
+  }
   a {
     font-size: 12px;
     padding: 0;
@@ -144,6 +150,9 @@ footer {
     text-align: center;
     vertical-align: top;
     padding: 0;
+  }
+  .wedding-party-picture {
+    max-width: 100%;
   }
   a.registry-button {
     display: block;
