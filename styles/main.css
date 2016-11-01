@@ -126,7 +126,7 @@ footer {
     display: block;
   }
   h3 {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
   }
   ul {
     margin-right: 5px;
@@ -151,7 +151,7 @@ footer {
     vertical-align: top;
     padding: 0;
   }
-  .wedding-picture {
+  img.wedding-picture {
     max-width: 100%;
   }
   a.registry-button {
