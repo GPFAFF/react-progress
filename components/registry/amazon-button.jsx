@@ -9,7 +9,7 @@ export default class AmazonButton extends React.Component {
         <a className="registry-button" target="_blank" href="http://amazon.com">Amazon</a>
 
         <div className="registry-company-picture">
-          <img className="registry-picture" alt="company picture" src="http://placehold.it/100x100"/>
+          <img className="registry-picture" alt="company picture" src="./img/amazon.png"/>
         </div>
 
         <div className="registry-details">
