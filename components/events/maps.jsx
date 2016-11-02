@@ -26,7 +26,7 @@ import ReactDOM from 'react-dom';
   render: function () {
 
       return (
-          <div className='map-gic'></div>
+          <div className='google-map'></div>
       );
   }
 });

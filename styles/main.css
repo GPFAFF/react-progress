@@ -115,9 +115,11 @@ a.registry-button:hover {
   margin: 20px auto;
   padding: 10px;
 }
-.map-gic {
+.google-map {
   height: 300px;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
 }
 footer {
   margin-top: 30px;
