@@ -5,11 +5,11 @@ import { Link } from 'react-router';
 export default class WestElmButton extends React.Component {
   render () {
     return (
-      <div className="registry-section">      
+      <div className="registry-section">
         <a className="registry-button" target="_blank" href="http://westelm.com">West Elm</a>
         
         <div className="registry-company-picture">
-          <img className="registry-picture" alt="company picture" src="http://placehold.it/100x100"/>
+          <img className="registry-picture" alt="company picture" src="./img/west-elm.jpg"/>
         </div>
 
         <div className="registry-details">
