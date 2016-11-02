@@ -61,6 +61,7 @@ a {
 .wedding-party {
   margin: 30px 100px;
   display: table;
+  width: 80%;
 }
 .wedding-party h3 {
   margin: 0;
@@ -140,7 +141,7 @@ footer {
     padding: 30px;
   }
   .wedding-party {
-    margin: 0;
+    margin: 0 auto;
     display: block;
     padding: 40px;
   }
