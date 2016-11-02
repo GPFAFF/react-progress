@@ -1,6 +1,6 @@
 import React from 'react';
 import AmazonButton from '../components/registry/amazon-button.jsx';
-import TargetButton from '../components/registry/target-button.jsx';
+import CrateAndBarrelButton from '../components/registry/crate-and-barrel-button.jsx';
 import WestElmButton from '../components/registry/west-elm-button.jsx';
 
 
@@ -16,7 +16,7 @@ export default class Registry extends React.Component {
         <AmazonButton />
         <p className="seperator"></p>
         <h5> Registry 2 </h5>
-        <TargetButton />
+        <CrateAndBarrelButton />
         <p className="seperator"></p>
         <h5> Registry 3 </h5>
         <WestElmButton />

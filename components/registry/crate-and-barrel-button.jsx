@@ -2,14 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-export default class TargetButton extends React.Component {
+export default class CrateAndBarrelButton extends React.Component {
   render () {
     return (
       <div className="registry-section">      
-        <a className="registry-button" target="_blank" href="http://target.com">Target</a>
+        <a className="registry-button" target="_blank" href="http://crateandbarrel.com">Crate & Barrel</a>
         
         <div className="registry-company-picture">
-          <img className="registry-picture" alt="company picture" src="http://placehold.it/100x100"/>
+          <img className="registry-picture" alt="company picture" src="./img/crateandbarrel.jpg"/>
         </div>
 
         <div className="registry-details">
