@@ -1,4 +1,4 @@
-/*HOME STYLING*/
+/*GLOBAL STYLING*/
 * {
   box-sizing: border-box;
 }
@@ -34,6 +34,17 @@ a {
   text-transform: uppercase;
   color: black;
 }
+.seperator {
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+  border-top: 1px solid black;
+}
+footer {
+  margin-top: 30px;
+}
+
+/*HOME STYLING*/
 .about {
   padding: 20px;
 }
@@ -55,11 +66,15 @@ a {
   margin: 0 auto;
   width: 80%;
 }
-img.registry-picture {
-  width: 100px;
-  height: 100px;
-}
+
 /*EVENTS STYLING*/
+
+.google-map {
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
 
 /*WEDDING PARTY STYLING*/
 .wedding-party {
@@ -80,12 +95,8 @@ img.registry-picture {
 .wedding-party-picture {
   text-align: center;
 }
-.seperator {
-  width: 80%;
-  height: 1px;
-  margin: 0 auto;
-  border-top: 1px solid black;
-}
+
+/* Registry Styling */
 a.registry-button {
   text-transform: uppercase;
   border: 2px solid black;
@@ -115,14 +126,12 @@ a.registry-button:hover {
   margin: 20px auto;
   padding: 10px;
 }
-.google-map {
-  height: 300px;
-  width: 80%;
-  margin: 0 auto;
-  border: 2px solid black;
+.registry-section h5 {
+  margin-top: 25px;
 }
-footer {
-  margin-top: 30px;
+img.registry-picture {
+  width: 100px;
+  height: 100px;
 }
 
 /* MOBILE - TABLET */
@@ -135,7 +144,7 @@ footer {
   h3 {
     padding: 20px 20px 0 20px;
   }
-  ul {
+  .navigation {
     margin-right: 5px;
   }
   a {
