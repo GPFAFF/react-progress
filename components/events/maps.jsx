@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-  var GoogleMap = React.createClass({
+var GoogleMap = React.createClass({
   getDefaultProps: function () {
       return {
           initialZoom: 15,
