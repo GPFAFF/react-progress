@@ -62,9 +62,13 @@ footer {
   display: inline;
   padding-bottom: 3px;
 }
-.mainImage img{
+.mainImage img {
+  display: none;
+}
+.mainImage img:first-child{
   margin: 0 auto;
   width: 80%;
+  display: block;
 }
 
 /*EVENTS STYLING*/
@@ -96,21 +100,34 @@ footer {
   text-align: center;
 }
 
+/*Travel Styling*/
+.travel h5 {
+  margin-top: 20px;
+}
+.hotel-details {
+  margin: 0 auto;
+  width: 70%;
+}
+.hotel-section {
+  margin: 30px 0;
+}
+.hotel-button {
+  margin-top: 20px;
+}
 /* Registry Styling */
-a.registry-button {
+a.registry-button, a.hotel-button {
   text-transform: uppercase;
   border: 2px solid black;
   border-radius: 5px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Proza Libre', serif;
   padding: 10px;
-  width: 200px;
+  width: 300px;
   font-weight: bold;
   display: inline-block;
-  /* margin: 20px auto; */
   vertical-align: top;
   margin-top: 0px;
 }
-a.registry-button:hover {
+a.registry-button:hover, a.hotel-button:hover {
   transition: ease-in 0.2s;
   background-color: black;
   color: white;

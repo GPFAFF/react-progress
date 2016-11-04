@@ -6,6 +6,7 @@ export default class WestElmButton extends React.Component {
   render () {
     return (
       <div className="registry-section">
+        <h5> West Elm </h5>
         <a className="registry-button" target="_blank" href="http://westelm.com">West Elm</a>
         
         <div className="registry-company-picture">

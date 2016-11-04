@@ -10,15 +10,10 @@ export default class Registry extends React.Component {
       <div>
         <h3> Registry </h3>
         <p className="seperator"></p>
-
-        <h5> Registry 1</h5>
-
         <AmazonButton />
         <p className="seperator"></p>
-        <h5> Registry 2 </h5>
         <CrateAndBarrelButton />
         <p className="seperator"></p>
-        <h5> Registry 3 </h5>
         <WestElmButton />
         <p className="seperator"></p>
       </div>

@@ -5,7 +5,8 @@ import { Link } from 'react-router';
 export default class AmazonButton extends React.Component {
   render () {
     return (
-      <div className="registry-section">    
+      <div className="registry-section">
+        <h5> Amazon </h5> 
         <a className="registry-button" target="_blank" href="http://amazon.com">Amazon</a>
 
         <div className="registry-company-picture">
