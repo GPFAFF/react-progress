@@ -11,7 +11,7 @@ class ChrisPfaff extends React.Component {
         </div>
 
         <div className="wedding-party-picture">
-          <img className="wedding-picture" alt="wedding photo portrait" src="./img/mm1.jpg"/>
+          <img className="wedding-picture" alt="wedding photo portrait" src="./img/chris.jpg"/>
         </div>
       </div>
     )
