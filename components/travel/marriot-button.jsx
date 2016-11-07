@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-export default class MarriotButton extends React.Component {
+class MarriotButton extends React.Component {
   render () {
     return (
       <div className="hotel-section">
@@ -15,10 +14,13 @@ export default class MarriotButton extends React.Component {
 
           <p> The property offers 2 restaurants, a bar and a Starbucks coffee shop. There's a rooftop pool with a deck, and a 24/7 fitness center. Other amenities include free WiFi in the lobby, 45 meeting rooms and a business center. </p>
           <p> Address: 110 E 2nd St, Austin, TX 78701 </p>
-          <a href="15124744777"> Phone: (512) 474-4777 </a>
+          <a href="tel:+15124744777"> Phone: (512) 474-4777 </a>
         </div>
         
       </div>
     );
   }
 }
+
+module.exports = MarriotButton;
+

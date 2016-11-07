@@ -15,8 +15,7 @@ var GoogleMap = React.createClass({
               zoom: this.props.initialZoom
           },
           map = new google.maps.Map(ReactDOM.findDOMNode(this), mapOptions);
-      var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Greg and Cori are getting married here!', map: map});  
-      this.setState({map: map});
+      var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Greg and Cori are getting married here!', map: map});
   },
   mapCenterLatLng: function (rootNode) {
       var props = this.props;

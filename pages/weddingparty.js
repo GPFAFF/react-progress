@@ -8,8 +8,7 @@ import LaurenDooley from '../components/wedding-party/dooley.jsx';
 import VictoriaGarbarczyk from '../components/wedding-party/tori.jsx';
 import MorganCoakley from '../components/wedding-party/morgan.jsx';
 
-
-export default class WeddingParty extends React.Component {
+class WeddingParty extends React.Component {
   render () {
     return (
       <div>
@@ -44,3 +43,5 @@ export default class WeddingParty extends React.Component {
     );
   }
 }
+
+module.exports = WeddingParty;

@@ -4,7 +4,7 @@ import CrateAndBarrelButton from '../components/registry/crate-and-barrel-button
 import WestElmButton from '../components/registry/west-elm-button.jsx';
 
 
-export default class Registry extends React.Component {
+class Registry extends React.Component {
   render () {
     return (
       <div>
@@ -20,3 +20,5 @@ export default class Registry extends React.Component {
     );
   }
 }
+
+module.exports = Registry;

@@ -2,7 +2,7 @@ import React from 'react';
 import GoogleMap from '../components/events/maps.jsx';
 import Location from '../components/events/location.jsx';
 
-export default class Events extends React.Component {
+class Events extends React.Component {
   render () {
     return (
       <div>
@@ -13,3 +13,5 @@ export default class Events extends React.Component {
     );
   }
 }
+
+module.exports = Events;

@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-export default class CrateAndBarrelButton extends React.Component {
+class CrateAndBarrelButton extends React.Component {
   render () {
     return (
       <div className="registry-section">
@@ -21,3 +20,5 @@ export default class CrateAndBarrelButton extends React.Component {
     );
   }
 }
+
+module.exports = CrateAndBarrelButton;
