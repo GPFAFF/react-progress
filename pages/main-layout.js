@@ -5,7 +5,7 @@ import Footer from '../components/main/footer.jsx';
 import Header from '../components/main/header.jsx';
 import { Link } from 'react-router';
 
-export default class MainLayout extends React.Component {
+class MainLayout extends React.Component {
   render () {
     return (
 
@@ -19,3 +19,5 @@ export default class MainLayout extends React.Component {
     );
   }
 }
+
+module.exports = MainLayout;

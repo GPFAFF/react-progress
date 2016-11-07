@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var MarriotMap = React.createClass({
+var AirbnbMap = React.createClass({
   getDefaultProps: function () {
       return {
-          initialZoom: 17,
-          mapCenterLat: 30.2646429,
-          mapCenterLng: -97.7465533
+          initialZoom: 13,
+          mapCenterLat: 30.2729,
+          mapCenterLng: -97.7444
       };
   },
   componentDidMount: function (rootNode) {
@@ -15,7 +15,7 @@ var MarriotMap = React.createClass({
               zoom: this.props.initialZoom
           },
           map = new google.maps.Map(ReactDOM.findDOMNode(this), mapOptions);
-      var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Austin Marriot!', map: map});
+      var marker = new google.maps.Marker({position: this.mapCenterLatLng(), title: 'Downtown Austin!', map: map});
       this.setState({map: map});
   },
   mapCenterLatLng: function (rootNode) {
@@ -31,4 +31,4 @@ var MarriotMap = React.createClass({
   }
 });
 
-module.exports = MarriotMap;
+module.exports = AirbnbMap;

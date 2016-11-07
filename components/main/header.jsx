@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 let imgUrl = './img/background-banner.png'
 let backgroundStyle = {
@@ -9,10 +8,13 @@ let backgroundStyle = {
   backgroundPosition: 'center center',
   marginBottom: '35'
 }
-export default class Header extends React.Component {
+
+class Header extends React.Component {
   render() {
     return (
       <header style={backgroundStyle}></header>
     );
   }
 }
+
+module.exports = Header;

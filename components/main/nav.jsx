@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-export default class Navigation extends React.Component {
+class Navigation extends React.Component {
   render () {
     return (
       <div className="navigation">
-        <Link to="home" activeClassName="active">Home</Link>
+        <Link to="/home" activeClassName="active">Home</Link>
         <Link to="events" activeClassName="active">Events</Link>
         <Link to="weddingparty" activeClassName="active">Wedding Party</Link>
         <Link to="travel" activeClassName="active">Travel</Link>
@@ -15,3 +14,5 @@ export default class Navigation extends React.Component {
     );
   }
 }
+
+module.exports = Navigation;

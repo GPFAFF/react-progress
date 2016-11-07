@@ -29,7 +29,7 @@ ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={MainLayout}>
       <IndexRoute component={Home}></IndexRoute>
-      <Route path="home" component={Home}></Route>
+      <Route path="/home" component={Home}></Route>
       <Route path="events" component={Events}></Route>
       <Route path="weddingparty" component={WeddingParty}></Route>
       <Route path="travel" component={Travel}></Route>

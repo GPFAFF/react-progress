@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 let imgUrl = './img/background-banner-footer.png'
 let backgroundStyle = {
@@ -10,7 +9,7 @@ let backgroundStyle = {
   marginTop: '60'
 }
 
-export default class Footer extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
         <footer style={backgroundStyle}> 
@@ -23,3 +22,5 @@ export default class Footer extends React.Component {
     );
   }
 }
+
+module.exports = Footer;

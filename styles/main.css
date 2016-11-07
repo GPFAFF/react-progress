@@ -79,6 +79,9 @@ footer {
   margin: 0 auto;
   border: 2px solid black;
 }
+.location {
+  margin-top: 30px;
+}
 
 /*WEDDING PARTY STYLING*/
 .wedding-party {
@@ -115,7 +118,7 @@ footer {
   margin-top: 20px;
 }
 /* Registry Styling */
-a.registry-button, a.hotel-button {
+a.registry-button, a.hotel-button, a.location-button {
   text-transform: uppercase;
   border: 2px solid black;
   border-radius: 5px;
@@ -127,7 +130,7 @@ a.registry-button, a.hotel-button {
   vertical-align: top;
   margin-top: 0px;
 }
-a.registry-button:hover, a.hotel-button:hover {
+a.registry-button:hover, a.hotel-button:hover, a.location-button:hover {
   transition: ease-in 0.2s;
   background-color: black;
   color: white;

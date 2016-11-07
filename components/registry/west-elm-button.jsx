@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
 
-export default class WestElmButton extends React.Component {
+class WestElmButton extends React.Component {
   render () {
     return (
       <div className="registry-section">
@@ -21,3 +20,5 @@ export default class WestElmButton extends React.Component {
     );
   }
 }
+
+module.exports = WestElmButton;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class MikeCastiglione extends React.Component {
+class MikeCastiglione extends React.Component {
   render () {
     return (
       <div className="wedding-party">
@@ -17,3 +17,5 @@ export default class MikeCastiglione extends React.Component {
     )
   }
 }
+
+module.exports = MikeCastiglione;
