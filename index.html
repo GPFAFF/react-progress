@@ -19,8 +19,22 @@
 <script src="./dist/index_bundle.js"></script>
 
 <!-- LOCALHOST -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGjTM5lFO4BcsYUbApBfoBuE-cX57lMXs""></script>
+
 <!-- <script src="./index_bundle.js"></script> -->
+
+<script> 
+var initMapFunctions = [];
+
+function initMap() {
+  console.log("Map Loaded");
+  for (var i = 0; i < initMapFunctions.length; i++) {
+    initMapFunctions[i]();
+  }
+  initMapFunctions = null;
+}
+</script>
+<script src="./index_bundle.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGjTM5lFO4BcsYUbApBfoBuE-cX57lMXs&callback=initMap" async defer></script>
 
 </body>
 
