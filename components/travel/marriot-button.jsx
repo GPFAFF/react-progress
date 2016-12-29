@@ -5,7 +5,7 @@ class MarriotButton extends React.Component {
   render () {
     return (
       <div className="hotel-section">
-        <a className="hotel-button" target="_blank" href="http://www.jwmarriottaustin.com/">Check out the Marriot</a>
+        <a className="hotel button" target="_blank" href="http://www.jwmarriottaustin.com/">Check out the Marriot</a>
 
         <div className="hotel-details">
           <p> This upscale hotel in downtown Austin is 1.5 miles from the Texas State Capitol and 2.7 miles from the University of Texas at Austin. </p>

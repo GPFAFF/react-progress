@@ -7,6 +7,7 @@ import ElenaSchoch from '../components/wedding-party/elena.jsx';
 import LaurenDooley from '../components/wedding-party/dooley.jsx';
 import VictoriaGarbarczyk from '../components/wedding-party/tori.jsx';
 import MorganCoakley from '../components/wedding-party/morgan.jsx';
+import VincentFracassi from '../components/wedding-party/vin.jsx';
 
 class WeddingParty extends React.Component {
   render () {
@@ -39,6 +40,8 @@ class WeddingParty extends React.Component {
         <MorganCoakley />
         <p className="seperator"></p>
 
+        <VincentFracassi />
+        <p className="seperator"></p>
       </div>
     );
   }

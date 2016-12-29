@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMap from '../components/events/maps.jsx';
-import Location from '../components/events/location.jsx';
+import Wedding from '../components/events/wedding.jsx';
+import RehersalDinner from '../components/events/rehersal-dinner.jsx';
 
 class Events extends React.Component {
   render () {
@@ -8,7 +9,8 @@ class Events extends React.Component {
       <div>
         <h3> Events </h3>
         <GoogleMap mlat="30.264765" mlong="-97.728805"/>
-        <Location />
+        <Wedding />
+        <RehersalDinner />
       </div>
     );
   }

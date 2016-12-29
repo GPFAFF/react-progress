@@ -5,7 +5,7 @@ class AirbnbButton extends React.Component {
   render () {
     return (
       <div className="hotel-section">
-        <a className="hotel-button" target="_blank" href="https://www.airbnb.com/s/Austin?neighborhoods%5B%5D=Downtown&page=1&s_tag=IAwsTGjN&allow_override%5B%5D=">Check out AirBnB</a>
+        <a className="hotel button" target="_blank" href="https://www.airbnb.com/s/Austin?neighborhoods%5B%5D=Downtown&page=1&s_tag=IAwsTGjN&allow_override%5B%5D=">Check out AirBnB</a>
 
         <div className="hotel-details">
           <p> For those of you who haven't used AirBnB before, it is a very affordable service where someone will rent you their apartment/home or living space for your requested period of stay.  Think of it as a bed and breakfast. </p>

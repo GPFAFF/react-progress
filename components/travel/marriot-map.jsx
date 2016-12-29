@@ -5,8 +5,8 @@ var MarriotMap = React.createClass({
   getDefaultProps: function () {
     return {
       initialZoom: 17,
-      mapCenterLat: 30.2646429,
-      mapCenterLng: -97.7465533
+      mapCenterLat: 30.264688,
+      mapCenterLng: -97.743543
     };
   },
   componentDidMount: function (rootNode) {
@@ -25,7 +25,7 @@ var MarriotMap = React.createClass({
         zoom: mapZoom
       };
       var map = new google.maps.Map(mapElement, mapOptions);
-      var marker = new google.maps.Marker({position: mapCenter, title: 'Greg and Cori are getting married here!', map: map}); 
+      var marker = new google.maps.Marker({position: mapCenter, title: 'Marriot Hotel!', map: map}); 
     };
     console.log(initMapFunctions);
 

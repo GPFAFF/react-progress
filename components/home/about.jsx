@@ -4,9 +4,12 @@ class About extends React.Component {
   render() {
     return ( 
       <div className="about">
-        <h3> About the Bride and Groom </h3> 
-        <p> Bacon ipsum dolor amet ham hock capicola pork loin short ribs pork belly bacon shank, andouille brisket doner pancetta cow boudin. Landjaeger andouille fatback drumstick, chicken pork chop beef ribs pancetta tail pork short ribs pastrami. Kevin shank alcatra, short ribs meatloaf leberkas pastrami. Kevin ball tip picanha leberkas hamburger pork loin jerky tail boudin. Tail shoulder prosciutto pig tri-tip shankle meatloaf bresaola pastrami jerky chicken. Kevin chuck bresaola jerky. </p>
-        <p> Bacon ipsum dolor amet ham hock capicola pork loin short ribs pork belly bacon shank, andouille brisket doner pancetta cow boudin. Landjaeger andouille fatback drumstick, chicken pork chop beef ribs pancetta tail pork short ribs pastrami. Kevin shank alcatra, short ribs meatloaf leberkas pastrami. Kevin ball tip picanha leberkas hamburger pork loin jerky tail boudin. Tail shoulder prosciutto pig tri-tip shankle meatloaf bresaola pastrami jerky chicken. Kevin chuck bresaola jerky. </p>
+        <h3>Our Story</h3> 
+        <p>Their story began after a fateful swipe right on the dating app Tinder.  I know what you're thinking, who woulda thought? But right from the beginning both could tell that this was a different type of relationship than they have had in the past. Within months of meeting each other they were practically inseparble and were both committed for a lifetime together. Fast forward to today, they have moved from Chicago to Austin with their dog Cooper and are having a wedding on April 21st.</p>
+
+        <p>Thank you for visiting our site and we are very excited to celebrate with you in Austin this spring!!</p>
+
+        <h4> Keep checking back for further details on the wedding </h4>
       </div>
     );
   }

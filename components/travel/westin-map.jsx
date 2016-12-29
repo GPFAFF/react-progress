@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var IntercontinentalMap = React.createClass({
+var WestinMap = React.createClass({
   getDefaultProps: function () {
     return {
       initialZoom: 17,
-      mapCenterLat: 30.2690439,
-      mapCenterLng: -97.742013
+      mapCenterLat: 30.2666162,
+      mapCenterLng: -97.740396
     };
   },
   componentDidMount: function (rootNode) {
@@ -25,7 +25,7 @@ var IntercontinentalMap = React.createClass({
         zoom: mapZoom
       };
       var map = new google.maps.Map(mapElement, mapOptions);
-      var marker = new google.maps.Marker({position: mapCenter, title: 'Greg and Cori are getting married here!', map: map}); 
+      var marker = new google.maps.Marker({position: mapCenter, title: 'Westin Hotel', map: map}); 
     };
     console.log(initMapFunctions);
 
@@ -46,4 +46,4 @@ var IntercontinentalMap = React.createClass({
   }
 });
 
-module.exports = IntercontinentalMap;
+module.exports = WestinMap;

@@ -1,7 +1,8 @@
 import React from 'react';
 import AmazonButton from '../components/registry/amazon-button.jsx';
+import AnthropologieButton from '../components/registry/anthropologie-button.jsx';
 import CrateAndBarrelButton from '../components/registry/crate-and-barrel-button.jsx';
-import WestElmButton from '../components/registry/west-elm-button.jsx';
+
 
 
 class Registry extends React.Component {
@@ -12,9 +13,9 @@ class Registry extends React.Component {
         <p className="seperator"></p>
         <AmazonButton />
         <p className="seperator"></p>
-        <CrateAndBarrelButton />
+        <AnthropologieButton />
         <p className="seperator"></p>
-        <WestElmButton />
+        <CrateAndBarrelButton />
         <p className="seperator"></p>
       </div>
     );
