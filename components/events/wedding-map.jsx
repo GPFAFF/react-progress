@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-var GoogleMap = React.createClass({
+var WeddingMap = React.createClass({
   getDefaultProps: function () {
     return {
         initialZoom: 15,
@@ -46,4 +46,4 @@ var GoogleMap = React.createClass({
   }
 });
 
-module.exports = GoogleMap;
+module.exports = WeddingMap;

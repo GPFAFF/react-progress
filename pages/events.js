@@ -1,16 +1,27 @@
 import React from 'react';
-import GoogleMap from '../components/events/maps.jsx';
+import WeddingMap from '../components/events/wedding-map.jsx';
 import Wedding from '../components/events/wedding.jsx';
+import RehersalDinnerMap from '../components/events/rehersal-dinner-map.jsx';
 import RehersalDinner from '../components/events/rehersal-dinner.jsx';
+import WelcomePartyMap from '../components/events/welcome-party-map.jsx';
+import WelcomeParty from '../components/events/welcome-party.jsx';
 
 class Events extends React.Component {
   render () {
     return (
       <div>
         <h3> Events </h3>
-        <GoogleMap mlat="30.264765" mlong="-97.728805"/>
+        <p className="seperator"></p>
+        <h3> Wedding Ceremony and Reception </h3>
+        <WeddingMap />
         <Wedding />
+        <h3> Rehersal Dinner </h3>
+        <RehersalDinnerMap />
         <RehersalDinner />
+        <h3> Welcome Party </h3>
+        <WelcomePartyMap />
+        <WelcomeParty />
+        <p className="seperator"></p>
       </div>
     );
   }

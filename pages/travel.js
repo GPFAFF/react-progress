@@ -6,6 +6,8 @@ import AirbnbButton from '../components/travel/airbnb-button.jsx';
 import WestinMap from '../components/travel/westin-map.jsx';
 import WestinButton from '../components/travel/westin-button.jsx';
 import Attractions from '../components/travel/attractions.jsx';
+import Transportation from '../components/travel/transportation.jsx';
+
 
 
 class Travel extends React.Component {
@@ -28,6 +30,9 @@ class Travel extends React.Component {
         <p className="seperator"></p>
         <h5> Things to do </h5>
         <Attractions />
+        <p className="seperator"></p>
+        <h5> Getting Around </h5>
+        <Transportation />
         <p className="seperator"></p>
       </div>
     );
