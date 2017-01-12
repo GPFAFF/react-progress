@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import AmazonButton from '../components/registry/amazon-button.jsx';
 import AnthropologieButton from '../components/registry/anthropologie-button.jsx';
 import CrateAndBarrelButton from '../components/registry/crate-and-barrel-button.jsx';
 
 
 
-class Registry extends React.Component {
+class Registry extends Component {
   render () {
     return (
       <div>

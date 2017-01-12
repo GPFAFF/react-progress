@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class MikeCastiglione extends React.Component {
+class MikeCastiglione extends Component {
   render () {
     return (
       <div className="wedding-party">

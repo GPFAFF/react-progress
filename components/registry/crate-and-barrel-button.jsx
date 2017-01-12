@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class CrateAndBarrelButton extends React.Component {
+class CrateAndBarrelButton extends Component {
   render () {
     return (
       <div className="registry-section">

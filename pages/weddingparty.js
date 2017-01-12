@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ChrisPfaff from '../components/wedding-party/chris.jsx';
 import DennisOneil from '../components/wedding-party/dennis.jsx';
 import JeffSeelbinder from '../components/wedding-party/jeff.jsx';
@@ -9,7 +9,7 @@ import VictoriaGarbarczyk from '../components/wedding-party/tori.jsx';
 import MorganCoakley from '../components/wedding-party/morgan.jsx';
 import VincentFracassi from '../components/wedding-party/vin.jsx';
 
-class WeddingParty extends React.Component {
+class WeddingParty extends Component {
   render () {
     return (
       <div>

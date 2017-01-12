@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MarriotMap from '../components/travel/marriot-map.jsx';
 import MarriotButton from '../components/travel/marriot-button.jsx';
 import AirbnbMap from '../components/travel/airbnb-map.jsx';
@@ -10,7 +10,7 @@ import Transportation from '../components/travel/transportation.jsx';
 
 
 
-class Travel extends React.Component {
+class Travel extends Component {
   render () {
     return (
       <div className="travel">

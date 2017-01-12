@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Wedding extends React.Component {
+class Wedding extends Component {
   render () {
     return (
       <div className="location">
@@ -9,7 +9,7 @@ class Wedding extends React.Component {
         <p> Password is "Surrealist" </p>
         <em> April 21st, 2017 </em>
         <p> 5:00 p.m. - 10:00 p.m.</p>
-        <p> 1303 E 7th St - Austin, TX 78702 </p>
+        <address> 1303 E 7th St Austin, TX 78702 </address>
         <form action='http://maps.google.com/maps' method='get' target='_blank'>
           <input type='text' placeholder="Enter your address" name='saddr' required/>
           <input type='hidden' name='daddr' value='1303 E 7th St, Austin, TX 78702' />

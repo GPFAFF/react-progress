@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class WestinButton extends React.Component {
+class WestinButton extends Component {
   render () {
     return (
       <div className="hotel-section">

@@ -26,7 +26,7 @@ h5 {
   font-style: italic;
 }
 .navigation{
-  padding: 30px 0;
+  padding: 30px 0 0 0;
 }
 a {
   margin: 20px;
@@ -112,6 +112,7 @@ footer {
 }
 .location em {
   display: block;
+  margin-top: 10px;
 }
 em {
   font-weight: 700;
@@ -204,13 +205,14 @@ img.registry-picture.anthro {
   h3 {
     padding: 20px 20px 0 20px;
   }
-  .navigation {
-    margin-right: 5px;
-  }
-  a {
-    font-size: 12px;
+  .navigation a, footer a {
+    font-size: 10px;
     padding: 0;
     margin: 0 0 0 5px;
+  }
+
+  .navigation a:first-child {
+    margin: 0;
   }
   .mainImage {
     padding: 0;
@@ -240,5 +242,9 @@ img.registry-picture.anthro {
   .getting-around li strong {
     margin: 10px;
     display: block;
+  }
+  input {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
   }
 }

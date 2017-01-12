@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 let imgUrl = './img/background-banner.png'
 let backgroundStyle = {
@@ -9,7 +9,7 @@ let backgroundStyle = {
   marginBottom: '35'
 }
 
-class Header extends React.Component {
+class Header extends Component {
   render() {
     return (
       <header style={backgroundStyle}></header>

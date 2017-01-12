@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import WeddingMap from '../components/events/wedding-map.jsx';
 import Wedding from '../components/events/wedding.jsx';
 import RehersalDinnerMap from '../components/events/rehersal-dinner-map.jsx';
@@ -6,7 +6,7 @@ import RehersalDinner from '../components/events/rehersal-dinner.jsx';
 import WelcomePartyMap from '../components/events/welcome-party-map.jsx';
 import WelcomeParty from '../components/events/welcome-party.jsx';
 
-class Events extends React.Component {
+class Events extends Component {
   render () {
     return (
       <div>

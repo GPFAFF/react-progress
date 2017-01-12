@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class AnthropologieButton extends React.Component {
+class AnthropologieButton extends Component {
   render () {
     return (
       <div className="registry-section">

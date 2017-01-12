@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class MarriotButton extends React.Component {
+class MarriotButton extends Component {
   render () {
     return (
       <div className="hotel-section">

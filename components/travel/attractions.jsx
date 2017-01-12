@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-class Attractions extends React.Component {
+class Attractions extends Component {
   render () {
     return (
       <div className="attraction-section">

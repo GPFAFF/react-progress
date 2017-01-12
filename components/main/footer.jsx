@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 let imgUrl = './img/background-banner-footer.png'
 let backgroundStyle = {
@@ -9,7 +9,7 @@ let backgroundStyle = {
   marginTop: '60'
 }
 
-class Footer extends React.Component {
+class Footer extends Component {
   render() {
     return (
         <footer style={backgroundStyle}> 

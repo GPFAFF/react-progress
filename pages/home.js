@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import MainImage from '../components/home/main-image.jsx';
 import About from '../components/home/about.jsx';
 
-class Home extends React.Component {
+class Home extends Component {
   render () {
     return (
       <div>
