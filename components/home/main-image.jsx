@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Carousel from 'nuka-carousel';
 
+const tweenFunctions = require('tween-functions');
+
 let imgs = [
   {
     id: 1,
@@ -26,11 +28,6 @@ let imgs = [
 
 class MainImage extends Component {
 
-  constructor(props) {
-    super(props);
-
-
-  }
 
   render() {
     let imgList = imgs.map(function(imgs){
@@ -41,7 +38,7 @@ class MainImage extends Component {
 
     return (
       <div className="mainImage">
-        <Carousel autoplay={true} speed={400} wrapAround={true}>
+        <Carousel easing={'tweenFunctions.easeInQuad(1, 0, 50, 5)'} autoplay={true} speed={1500} wrapAround={true}>
          {imgList}
         </Carousel>
       </div>

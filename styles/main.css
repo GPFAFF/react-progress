@@ -191,6 +191,9 @@ img.registry-picture {
 img.registry-picture.anthro {
   height: 70px;
 }
+.slider > div > button {
+  display: none;
+}
 
 /* MOBILE - TABLET */
 @media (max-width: 767px) {
