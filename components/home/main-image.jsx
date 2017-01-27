@@ -45,7 +45,6 @@ class MainImage extends Component {
       <div className="mainImage">
         <Slider {...settings}>
           {imgs.map(function(imgs){
-            console.log(imgs);
             return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
           })}
         </Slider>
