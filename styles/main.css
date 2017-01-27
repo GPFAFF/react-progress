@@ -86,13 +86,10 @@ footer {
   display: inline;
   padding-bottom: 3px;
 }
-.mainImage img {
-  display: none;
-}
-.mainImage img:first-child{
+.mainImage {
   margin: 0 auto;
+  padding: 40px;
   width: 80%;
-  display: block;
 }
 
 /*EVENTS STYLING*/

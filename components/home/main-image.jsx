@@ -45,7 +45,7 @@ class MainImage extends Component {
     const settings = {
       dots: false,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 6000,
       infinite: true,
       fade: true,
       cssEase: 'linear',
