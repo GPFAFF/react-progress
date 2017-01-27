@@ -47,7 +47,8 @@ class MainImage extends Component {
       autoplay: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      arrows: true
     };
 
     console.log(this.props)
@@ -57,7 +58,7 @@ class MainImage extends Component {
         <Slider {...settings}>
           {imgs.map(function(imgs){
             console.log(imgs);
-            return <img key={imgs.id} alt={imgs.name} />
+            return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
           })}
         </Slider>
       </div>
