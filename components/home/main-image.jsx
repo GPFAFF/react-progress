@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const Carousel = require('nuka-carousel');
+import Carousel from 'nuka-carousel';
 
 let imgs = [
   {
@@ -26,27 +26,22 @@ let imgs = [
 
 class MainImage extends Component {
 
+  constructor(props) {
+    super(props);
+
+
+  }
+
   render() {
-    const settings = {
-      dots: false,
-      autoplay: true,
-      autoplaySpeed: 6000,
-      infinite: true,
-      fade: true,
-      cssEase: 'linear',
-      arrows: true,
-      pauseOnHover: true,
-
-    };
-
     let imgList = imgs.map(function(imgs){
-      return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
+      return <img onLoad={() => {window.dispatchEvent(new Event('resize'))}} key={imgs.id} alt={imgs.name} src={imgs.src}/>
     })
 
-    console.log(this.props)
+    console.log("image instatiation");
+
     return (
       <div className="mainImage">
-        <Carousel className="images" {...settings}>
+        <Carousel autoplay={true} speed={400} wrapAround={true}>
          {imgList}
         </Carousel>
       </div>
