@@ -16,7 +16,7 @@ class Travel extends Component {
       <div className="travel">
         <h3> Travel </h3>
         <p className="seperator"></p>
-        <h5> Westin - $259.00 </h5>
+        <h5> Westin </h5>
         <WestinMap />
         <WestinButton />
         <p className="seperator"></p>
