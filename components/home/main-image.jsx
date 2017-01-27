@@ -10,32 +10,17 @@ var imgs = [
   {
     id: 2,
     name: 'cori and greg',
-    src: "./img/gregandcori-2.jpg"
+    src: "./img/gregandcori-3.jpg"
   },
   {
     id: 3,
     name: 'cori and greg',
-    src: "./img/gregandcori-3.jpg"
+    src: "./img/gregandcori-4.jpg"
   },
   {
     id: 4,
     name: 'cori and greg',
-    src: "./img/gregandcori-4.jpg"
-  },
-  {
-    id: 5,
-    name: 'cori and greg',
-    src: "./img/gregandcori-5.jpg"
-  },
-  {
-    id: 6,
-    name: 'cori and greg',
     src: "./img/gregandcori-6.jpg"
-  },
-  {
-    id: 7,
-    name: 'cori and greg',
-    src: "./img/gregandcori-7.jpg"
   }
 ];
 
