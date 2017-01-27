@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 const Slider = require('react-slick');
 
-var imgs = [
+let imgs = [
   {
     id: 1,
     name: 'cori and gregs',
@@ -46,7 +46,7 @@ class MainImage extends Component {
         <Slider {...settings}>
           {imgs.map(function(imgs){
             console.log(imgs);
-            return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
+            return <img onLoad={sliderRefresh()}key={imgs.id} alt={imgs.name} src={imgs.src}/>
           })}
         </Slider>
       </div>
