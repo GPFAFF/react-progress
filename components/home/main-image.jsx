@@ -45,11 +45,14 @@ class MainImage extends Component {
     const settings = {
       dots: false,
       autoplay: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      autoplaySpeed: 2000,
+      infinite: true,
+      fade: true,
+      cssEase: 'linear',
       arrows: true,
-      adaptiveHeight: true
+      adaptiveHeight: true,
+      pauseOnHover: true,
+
     };
 
     console.log(this.props)
