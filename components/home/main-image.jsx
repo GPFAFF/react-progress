@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const Slider = require('react-slick');
+const Carousel = require('nuka-carousel');
 
 let imgs = [
   {
@@ -39,15 +39,16 @@ class MainImage extends Component {
 
     };
 
+    let imgList = imgs.map(function(imgs){
+      return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
+    })
+
     console.log(this.props)
     return (
-
       <div className="mainImage">
-        <Slider {...settings}>
-          {imgs.map(function(imgs){
-            return <img key={imgs.id} alt={imgs.name} src={imgs.src}/>
-          })}
-        </Slider>
+        <Carousel className="images" {...settings}>
+         {imgList}
+        </Carousel>
       </div>
     );
   }
