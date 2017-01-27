@@ -5,7 +5,7 @@ var imgs = [
   {
     id: 1,
     name: 'cori and gregs',
-    src: "./img/gregandcori-1.jpg"
+    src: "./img/gregandcori.jpg"
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ class MainImage extends Component {
         <Slider {...settings}>
           {imgs.map(function(imgs){
             console.log(imgs);
-            <img key={imgs.id} alt={imgs.name} />
+            return <img key={imgs.id} alt={imgs.name} />
           })}
         </Slider>
       </div>
