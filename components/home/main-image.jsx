@@ -50,7 +50,6 @@ class MainImage extends Component {
       fade: true,
       cssEase: 'linear',
       arrows: true,
-      adaptiveHeight: true,
       pauseOnHover: true,
 
     };
