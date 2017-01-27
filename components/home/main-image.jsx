@@ -28,14 +28,8 @@ class MainImage extends Component {
 
   render() {
     const settings = {
-      dots: false,
-      autoplay: true,
-      autoplaySpeed: 6000,
-      infinite: true,
-      fade: true,
-      cssEase: 'linear',
-      arrows: true,
-      pauseOnHover: true,
+      wrapAround: true,
+      easing: "easeInOutElastic"
 
     };
 
